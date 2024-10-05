@@ -27,6 +27,15 @@
             <input type="text" placeholder="Enter the Phone Number" required>
 
             <label>
+                Gender
+            </label>
+            <select required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <label>
                 Select Course
             </label>
             <select required>
@@ -42,7 +51,20 @@
                     <option>C</option>
                     <option>c++</option>
                 </optgroup>
+                <optgroup label="Application Development">
+                    <option>Android</option>
+                    <option>Flutter</option>
+                </optgroup>
             </select>
+
+            <label>Timing</label>
+            <select name="time" id="time">
+                <option>Morning (8 AM - 12 PM)</option>
+                <option>Afternoon (1 PM - 5 PM)</option>
+                <option>Evening (6 PM - 8 PM)</option>
+            </select>
+            <label>Any question</label>
+            <textarea placeholder="Enter Your question Here..."></textarea>
         </fieldset>
     </form>
 </body>
