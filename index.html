@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="video-background">
+        <video autoplay muted loop id="bgVideo">
+            <source src="video.mp4">
+        </video>
+    </div>
+
     <h1>Online Course Registration</h1>
     <form>
         <fieldset>
@@ -65,6 +71,10 @@
             </select>
             <label>Any question</label>
             <textarea placeholder="Enter Your question Here..."></textarea>
+            
+            <div class="button">
+                <button type="submit">Register</button>
+            </div>
         </fieldset>
     </form>
 </body>
